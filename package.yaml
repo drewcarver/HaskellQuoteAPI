@@ -26,6 +26,8 @@ dependencies:
 - transformers
 - mongoDB
 - AesonBson
+- text
+- dotenv
 - bson-generic
 - scotty
 

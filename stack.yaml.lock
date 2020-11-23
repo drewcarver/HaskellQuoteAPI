@@ -18,6 +18,20 @@ packages:
       sha256: 46d452c35c2c762af25bf4d85b5248a94cbbe5b282bc4b1217d0ab3451011ae9
   original:
     hackage: bson-generic-0.0.9@sha256:ea6685daa618b2bbe6e189c33e195e812501baf42f53183eedc16f011690895a,817
+- completed:
+    hackage: text-1.2.4.0@sha256:8c24450feb8e3bbb7ea3e17af24ef57e85db077c4bf53e5bcc345b283d1b1d5b,10081
+    pantry-tree:
+      size: 7457
+      sha256: 3437b0a73ce2ae1a81aa8b3438d41a85981c00894cdbee0d6d6d6873046a5d5d
+  original:
+    hackage: text-1.2.4.0
+- completed:
+    hackage: regex-posix-clib-2.7@sha256:998fca06da3d719818f0691ef0b8b9b7375afeea228cb08bd9e2db53f96b0cd7,1232
+    pantry-tree:
+      size: 524
+      sha256: 5bf20952472d930323766d250f5fbbe3fe6f2cd3d931e5cf7b62a238ab2099ff
+  original:
+    hackage: regex-posix-clib-2.7
 snapshots:
 - completed:
     size: 532383

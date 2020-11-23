@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: aee726f4c8ed0aeeafd715906ca1337aa4bf64269cf88e7821d7304ba847cf85
+-- hash: 2d8ecb415e8fdb11ece64829bbeb8c74cd4c5ab2388edacc87e5784e71f03ae8
 
 name:           dashboard-api
 version:        0.1.0.0
@@ -26,6 +26,7 @@ source-repository head
 
 library
   exposed-modules:
+      EnvironmentConfig
       Lib
       QuoteRepository
   other-modules:
@@ -37,8 +38,10 @@ library
     , aeson
     , base >=4.7 && <5
     , bson-generic
+    , dotenv
     , mongoDB
     , scotty
+    , text
     , transformers
     , wai
     , warp
@@ -57,8 +60,10 @@ executable dashboard-api-exe
     , base
     , bson-generic
     , dashboard-api
+    , dotenv
     , mongoDB
     , scotty
+    , text
     , transformers
     , wai
     , warp
@@ -78,11 +83,13 @@ test-suite dashboard-api-test
     , base
     , bson-generic
     , dashboard-api
+    , dotenv
     , hspec
     , hspec-wai
     , hspec-wai-json
     , mongoDB
     , scotty
+    , text
     , transformers
     , wai
     , warp

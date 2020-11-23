@@ -34,9 +34,14 @@ packages:
 # These entries can reference officially published versions as well as
 # forks / in-progress versions pinned to a git hash. For example:
 #
+flags:
+   regex-posix:
+      _regex-posix-clib: true
 extra-deps: [
   "AesonBson-0.4.0@sha256:fb368ec6f750d582c0630b2eb0d562d7eecab87da4a099593746298b27184a95,1333",
-  "bson-generic-0.0.9@sha256:ea6685daa618b2bbe6e189c33e195e812501baf42f53183eedc16f011690895a,817"
+  "bson-generic-0.0.9@sha256:ea6685daa618b2bbe6e189c33e195e812501baf42f53183eedc16f011690895a,817",
+  "text-1.2.4.0",
+  "regex-posix-clib-2.7"
 ]
 # - acme-missiles-0.3
 # - git: https://github.com/commercialhaskell/stack.git
